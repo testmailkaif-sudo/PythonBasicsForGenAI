@@ -17,3 +17,13 @@ print(text.count("Python"))
 print(text.replace("Python","Java"))
 
 print(text.split())
+words = ["Hello","World","I","love","Python"]
+print(" ".join(words))
+text = "Python"
+
+print(len(text))        # 6    ← length
+print(min(text))        # P    ← smallest character (alphabetically)
+print(max(text))        # y    ← largest character
+print(sorted(text))     # ['P', 'h', 'n', 'o', 't', 'y']
+print(list(text))       # ['P', 'y', 't', 'h', 'o', 'n']
+
